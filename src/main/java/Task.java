@@ -7,9 +7,6 @@ import java.time.LocalDateTime;
 
 
 @Data
-@ToString
-
-
 public class Task {
     String taskName;
     String taskDescription;
@@ -31,7 +28,7 @@ public class Task {
     }
 
 
-
+/*
     //Getter and Setters
 
     public String getTaskName(){
@@ -68,4 +65,6 @@ public class Task {
     public void setTaskDateTimeStop(LocalDateTime taskDateTimeStop) {
         this.taskDateTimeStop = taskDateTimeStop;
     }
+
+ */
 }
